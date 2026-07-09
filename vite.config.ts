@@ -5,7 +5,7 @@ import { traeBadgePlugin } from 'vite-plugin-trae-solo-badge';
 import { viteSingleFile } from 'vite-plugin-singlefile';
 
 export default defineConfig({
-  base: '/give-me-a-task/',
+  base: './',
   build: {
     sourcemap: 'hidden',
     target: 'esnext',
